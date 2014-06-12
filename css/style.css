@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/css?family=Cinzel);
+
+#logo
+{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:-6px;
+}
+#header_middle
+{
+  background : #C40000;
+  background : rgba(196, 0, 0, 1);
+  position : absolute ;
+  left : 0px;
+  top : 6px;
+  width : 100%;
+  height : 45px;
+  z-index: -1
+}
+ul#navbar a{
+  display:block;
+  vertical-align:middle;
+  text-align:center;
+  text-decoration:none;
+  font-family : 'Cinzel', serif;
+  font-size : 22px;
+  color:#ffffff;
+  width: 200px;
+}
+ul#navbar li{
+  display:block;
+  float:left;
+  display:inline;
+  position:absolute;
+  top:7px;
+}
+ul#navbar li:hover>*{
+  display:block;
+}
+ul#navbar ul{
+  display:none;
+  background-color:#C80000;
+  padding:0px;
+}
+ul#navbar ul li{
+  float:none;
+}
+ul#navbar li:hover>a,ul#navbar li a.pressed{
+  background-color:#B00000;
+  color:#ffffff;
+  text-decoration:none;
+}
+
+#li_about
+{
+  left:15%;
+}
+#li_academics
+{
+  left:28%;
+}
+#li_studentlife
+{
+  right:29%;
+}
+#li_athletics
+{
+  right:14%;
+}
+
+#header_top
+{
+  background : #FFCC00;
+  background : rgba(255, 204, 0, 1);
+  position : absolute ;
+  left : 0px;
+  top : 0px;
+  width : 100%;
+  height : 6px;
+}
+#header_bottom
+{
+  background : #FFCC00;
+  background : rgba(255, 204, 0, 1);
+  position : absolute ;
+  left : 0px;
+  top : 51px;
+  width : 100%;
+  height : 6px;
+  z-index: -1
+}
