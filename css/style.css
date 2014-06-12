@@ -2,11 +2,13 @@
 
 #logo
 {
+  position:absolute;
   display:block;
-  margin-left:auto;
-  margin-right:auto;
+  left:45%;
+  right:45%;
   margin-top:-6px;
 }
+
 #header_middle
 {
   background : #C40000;
@@ -32,8 +34,6 @@ ul#navbar li{
   display:block;
   float:left;
   display:inline;
-  position:absolute;
-  top:7px;
 }
 ul#navbar li:hover>*{
   display:block;
@@ -52,20 +52,29 @@ ul#navbar li:hover>a,ul#navbar li a.pressed{
   text-decoration:none;
 }
 
+
 #li_about
 {
+  position:absolute;
+  top:7px;
   left:15%;
 }
 #li_academics
 {
+  position:absolute;
+  top:7px;
   left:28%;
 }
 #li_studentlife
 {
+  position:absolute;
+  top:7px;
   right:29%;
 }
 #li_athletics
 {
+  position:absolute;
+  top:7px;
   right:14%;
 }
 
